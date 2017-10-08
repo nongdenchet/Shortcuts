@@ -1,4 +1,4 @@
-package com.sentio.shortcuts.model
+package com.sentio.shortcuts
 
 import android.content.Context
 import android.content.Intent

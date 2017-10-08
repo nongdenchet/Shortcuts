@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Shortcuts</string>
+    <string name="no_shortcut">This app has no shortcuts or you are not a launcher</string>
 </resources>
