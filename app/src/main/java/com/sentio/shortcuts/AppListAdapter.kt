@@ -8,7 +8,7 @@ import android.widget.ImageView
 import android.widget.TextView
 
 class AppListAdapter(private val appManager: AppManager) : RecyclerView.Adapter<AppListAdapter.ViewHolder>() {
-    private val apps: List<App> = appManager.getLaunchableApps()
+    private val apps: List<App> = appManager.getLaunchableApps().sortedBy { it.label }
     var itemLongClickListener: (App, View) -> Boolean = { _, _ -> false }
 
     override fun getItemCount(): Int = apps.size
